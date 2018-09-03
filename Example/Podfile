@@ -1,7 +1,8 @@
 use_frameworks!
 
 target 'MiracastSDK_Example' do
-  pod 'MiracastSDK', :path => '../'
+  #pod 'MiracastSDK', :path => '../'
+  pod 'MiracastSDK', '0.1.1'
   pod 'NJKWebViewProgress'
   target 'MiracastSDK_Tests' do
     inherit! :search_paths

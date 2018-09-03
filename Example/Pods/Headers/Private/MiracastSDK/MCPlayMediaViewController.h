@@ -1,1 +1,1 @@
-../../../../../MiracastSDK/Public/MCPlayMediaViewController.h
+../../../MiracastSDK/MiracastSDK/Public/MCPlayMediaViewController.h

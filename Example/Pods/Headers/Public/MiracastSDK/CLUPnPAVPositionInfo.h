@@ -1,1 +1,1 @@
-../../../../../MiracastSDK/Public/CLUPnPAVPositionInfo.h
+../../../MiracastSDK/MiracastSDK/Public/CLUPnPAVPositionInfo.h

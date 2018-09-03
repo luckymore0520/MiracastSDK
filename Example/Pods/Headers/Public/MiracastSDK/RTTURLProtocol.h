@@ -1,1 +1,1 @@
-../../../../../MiracastSDK/Public/RTTURLProtocol.h
+../../../MiracastSDK/MiracastSDK/Public/RTTURLProtocol.h

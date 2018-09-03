@@ -1,1 +1,1 @@
-../../../../../MiracastSDK/Public/MCSuspendButton.h
+../../../MiracastSDK/MiracastSDK/Public/MCSuspendButton.h

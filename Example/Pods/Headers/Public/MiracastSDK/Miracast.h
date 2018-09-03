@@ -1,1 +1,1 @@
-../../../../../MiracastSDK/Public/Miracast.h
+../../../MiracastSDK/MiracastSDK/Public/Miracast.h

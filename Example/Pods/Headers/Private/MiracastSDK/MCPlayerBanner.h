@@ -1,1 +1,1 @@
-../../../../../MiracastSDK/Public/MCPlayerBanner.h
+../../../MiracastSDK/MiracastSDK/Public/MCPlayerBanner.h

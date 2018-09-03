@@ -84,10 +84,10 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "${PODS_ROOT}/../../MiracastSDK/Resources/Miracast.xcassets"
+  install_resource "${PODS_ROOT}/MiracastSDK/MiracastSDK/Resources/tubicast.png"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "${PODS_ROOT}/../../MiracastSDK/Resources/Miracast.xcassets"
+  install_resource "${PODS_ROOT}/MiracastSDK/MiracastSDK/Resources/tubicast.png"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
