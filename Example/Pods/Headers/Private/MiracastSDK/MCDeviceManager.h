@@ -1,1 +1,0 @@
-../../../MiracastSDK/MiracastSDK/Public/MCDeviceManager.h

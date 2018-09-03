@@ -1,1 +1,0 @@
-../../../MiracastSDK/MiracastSDK/Public/MCPlayerBanner.h
