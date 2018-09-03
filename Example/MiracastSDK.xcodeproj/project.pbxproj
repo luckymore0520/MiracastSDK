@@ -378,6 +378,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MiracastSDK_Example/Pods-MiracastSDK_Example-resources.sh",
 				"${PODS_ROOT}/MiracastSDK/MiracastSDK/Resources/tubicast.png",
+				"${PODS_ROOT}/MiracastSDK/MiracastSDK/Resources/Miracast.xcassets",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
