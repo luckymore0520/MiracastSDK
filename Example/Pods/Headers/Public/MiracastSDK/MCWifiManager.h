@@ -1,1 +1,1 @@
-../../../../../ios/Public/MCWifiManager.h
+../../../../../MiracastSDK/ios/Public/MCWifiManager.h

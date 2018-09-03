@@ -1,1 +1,1 @@
-../../../../../ios/Public/MCFileManager.h
+../../../../../MiracastSDK/ios/Public/MCFileManager.h

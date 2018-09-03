@@ -1,1 +1,1 @@
-../../../../../ios/Public/MCRenderManager.h
+../../../../../MiracastSDK/ios/Public/MCRenderManager.h

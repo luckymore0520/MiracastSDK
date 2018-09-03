@@ -21,12 +21,12 @@
   },
   "ios": {
     "source_files": [
-      "ios/Public/*.h"
+      "MiracastSDK/ios/Public/*.h"
     ],
     "public_header_files": [
-      "ios/Public/*.h"
+      "MiracastSDK/ios/Public/*.h"
     ],
-    "vendored_libraries": "ios/libMiracastSDK.a"
+    "vendored_libraries": "MiracastSDK/ios/libMiracastSDK.a"
   },
   "libraries": [
     "xml2",

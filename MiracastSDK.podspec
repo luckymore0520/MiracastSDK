@@ -4,10 +4,10 @@ Pod::Spec.new do |s|
   s.summary = "MiracastSDK"
   s.license = {"type"=>"MIT", "file"=>"LICENSE"}
   s.authors = {"njuluckwang"=>"njuluckwang@gmail.com"}
-  s.homepage = "https://github/luckymore0520/MiracastSDK"
+  s.homepage = "https://github.com/luckymore0520/MiracastSDK"
   s.description = "MiracastSDK"
   s.requires_arc = true
-  s.source   = { :git => 'https://github.com/luckymore0520/MiracastSDK', :tag => s.version}
+  s.source   = { :git => 'https://github.com/luckymore0520/MiracastSDK.git', :tag => s.version}
 
   s.ios.deployment_target    = '9.0'
   s.ios.source_files = ['MiracastSDK/ios/Public/*.h']
