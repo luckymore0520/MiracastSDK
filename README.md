@@ -1,6 +1,5 @@
 # MiracastSDK
 
-[![CI Status](https://img.shields.io/travis/Kun Wang/MiracastSDK.svg?style=flat)](https://travis-ci.org/Kun Wang/MiracastSDK)
 [![Version](https://img.shields.io/cocoapods/v/MiracastSDK.svg?style=flat)](https://cocoapods.org/pods/MiracastSDK)
 [![License](https://img.shields.io/cocoapods/l/MiracastSDK.svg?style=flat)](https://cocoapods.org/pods/MiracastSDK)
 [![Platform](https://img.shields.io/cocoapods/p/MiracastSDK.svg?style=flat)](https://cocoapods.org/pods/MiracastSDK)
@@ -111,8 +110,7 @@ MiracastSDK is available under the MIT license. See the LICENSE file for more in
 - change the tag of `MiracastSDK.podspec`
 
 ```
-  s.source           = { :git => '/Users/yourname/Miracast', :tag => '0.1.3' }
-
+s.source = { :git => '/Users/yourname/Miracast', :tag => '0.1.4' }
 ```
 
 - commit and add a tag
@@ -127,7 +125,6 @@ git tag -a 0.1.3 -m 'MiracastSDK v0.1.3'
 
 ```
 sudo gem install cocoapods-packager
-
 ```
 
 - package
