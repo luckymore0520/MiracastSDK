@@ -1,0 +1,27 @@
+PODS:
+  - MiracastSDK (0.1.0)
+  - NJKWebViewProgress (0.2.3):
+    - NJKWebViewProgress/Core (= 0.2.3)
+    - NJKWebViewProgress/ProgressView (= 0.2.3)
+  - NJKWebViewProgress/Core (0.2.3)
+  - NJKWebViewProgress/ProgressView (0.2.3)
+
+DEPENDENCIES:
+  - MiracastSDK (from `../`)
+  - NJKWebViewProgress
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - NJKWebViewProgress
+
+EXTERNAL SOURCES:
+  MiracastSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MiracastSDK: 25886c1149ad313cdaac961783ee6f9a61d31d22
+  NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
+
+PODFILE CHECKSUM: cc322b07865ff5283259f9539904415c4b845b19
+
+COCOAPODS: 1.5.3
