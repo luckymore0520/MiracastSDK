@@ -236,6 +236,8 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
+				1A7D8442A7E42970995B0FE8 /* [CP] Embed Pods Frameworks */,
+				7A121BC83EA4D8AA64F0CEC5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -307,6 +309,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1A7D8442A7E42970995B0FE8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MiracastSDK_Tests/Pods-MiracastSDK_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		388FA9D23FAA7648164F8048 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -334,17 +355,36 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MiracastSDK_Example/Pods-MiracastSDK_Example-resources.sh",
-				"${PODS_ROOT}/../../Source/Assets/Miracast.xcassets",
+				"${PODS_ROOT}/../../Source/Miracast.bundle/Miracast.xcassets",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Assets.car",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MiracastSDK_Example/Pods-MiracastSDK_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A121BC83EA4D8AA64F0CEC5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MiracastSDK_Tests/Pods-MiracastSDK_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		823FE09A43304A50FC321691 /* [CP] Check Pods Manifest.lock */ = {

@@ -10,18 +10,14 @@ DEPENDENCIES:
   - MiracastSDK (from `../`)
   - NJKWebViewProgress
 
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - NJKWebViewProgress
-
 EXTERNAL SOURCES:
   MiracastSDK:
-    :path: "../"
+    :path: ../
 
 SPEC CHECKSUMS:
-  MiracastSDK: 7b4bee5dde52f6157bbe62f00c4e2c2cd7f31500
+  MiracastSDK: 1cb5f3c8f134d6ba6cc26e8d3c999396e27d2121
   NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
 
 PODFILE CHECKSUM: cc322b07865ff5283259f9539904415c4b845b19
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.3.1

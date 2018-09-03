@@ -9,27 +9,20 @@
 /* Begin PBXBuildFile section */
 		086F8F6A904E4D27500CC752AEC9E6BB /* NJKWebViewProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = 9062BDE2B9E92867792338BEA93F5E75 /* NJKWebViewProgress.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A520AA1499AC529D7FF137FD9DB6887 /* Pods-MiracastSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75AE01037DCC6422A0904DB43DD704FA /* Pods-MiracastSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1C3C6E3A168B7CEC7ED4CFC4979F48E9 /* Pods-MiracastSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 129F8681C03B22B4C8543C38C4DEC4EC /* Pods-MiracastSDK_Tests-dummy.m */; };
 		1E0D2D2C8E89E32D7EB761D831C2A922 /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C1BA5A9F606D202D15A6C445E81384 /* NJKWebViewProgress.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		4B3866F215319737397093AFE2C4B292 /* Pods-MiracastSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EE361EA37A522A069644FD0416364DA /* Pods-MiracastSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C5B4769A268B975B021A32F2EF15C9D /* Pods-MiracastSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C98208282CB79C5E4572AFE116D40AE /* Pods-MiracastSDK_Example-dummy.m */; };
 		4E0A460145219AA7F67E936CC5D0F6A5 /* NJKWebViewProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = EC0AEA6DD889C773FB3D1FBC10D3C4D3 /* NJKWebViewProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52BEFEE2F96056366CE6737A72AB7EE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		7315D926EF2DD1D3CF820129392B70B5 /* NJKWebViewProgress-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D639DDF1D431E53D967FA7AF00736E /* NJKWebViewProgress-dummy.m */; };
 		80C5C42A0672F22AFA1FE0A00E567E07 /* NJKWebViewProgress-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DF8F37EEC76696E8AB8B8CEFFE0B11B /* NJKWebViewProgress-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B9468084B93A229B686406437EC3156 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		B885536214FFD9016E982A1A88B90999 /* Pods-MiracastSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EE361EA37A522A069644FD0416364DA /* Pods-MiracastSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DFF9FE2A38309E1536443DEB0F9EF089 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		EBC8175B610273C6927B730452342580 /* Pods-MiracastSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 129F8681C03B22B4C8543C38C4DEC4EC /* Pods-MiracastSDK_Tests-dummy.m */; };
 		ED159AC56D7FABFB161CF365E5D083C2 /* NJKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1C84C9D4C6B497FC3E4BBF6736D59F /* NJKWebViewProgressView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		EF3F8167ED881AF2CE859C27B3F0F116 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DDB280F93722C78176388E2FDD74F93E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AD858F5215F5D65E890286119899BF90;
-			remoteInfo = "Pods-MiracastSDK_Example";
-		};
 		FE7EE5BBAC120920A40030F399E1CC89 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -40,15 +33,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07F61886218FE7BE7DB3E886572357D9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		03D04164DB307B33DF573E678B6CA180 /* Miracast.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Miracast.xcassets; path = Source/Miracast.bundle/Miracast.xcassets; sourceTree = "<group>"; };
 		0E00AA9C3A1461D2064BA4D7565B4DFF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		105259A3AEBB46BB58C28E9ACDDFD597 /* NJKWebViewProgress.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NJKWebViewProgress.xcconfig; sourceTree = "<group>"; };
 		129F8681C03B22B4C8543C38C4DEC4EC /* Pods-MiracastSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MiracastSDK_Tests-dummy.m"; sourceTree = "<group>"; };
 		1435A3ABF9214AB01DA7DD1372285BF9 /* Pods-MiracastSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MiracastSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		19A274D93DBF227328799477852FE78F /* MCWifiManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCWifiManager.h; path = Source/Public/MCWifiManager.h; sourceTree = "<group>"; };
+		1A160FC55D90570367DAD569DB034771 /* MCDeviceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCDeviceManager.h; path = Source/Public/MCDeviceManager.h; sourceTree = "<group>"; };
 		1DAFC98B82F688F40DBAC05819BD5BB0 /* Pods-MiracastSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MiracastSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1E7D5E56419410C71A7039E4A1B02F42 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A748686306F1F0152FD1A41B5936D45 /* MCPlayMediaViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCPlayMediaViewController.h; path = Source/Public/MCPlayMediaViewController.h; sourceTree = "<group>"; };
-		3268E5F6721929960376D2DB46FC5624 /* MCSuspendButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCSuspendButton.h; path = Source/Public/MCSuspendButton.h; sourceTree = "<group>"; };
 		3C98208282CB79C5E4572AFE116D40AE /* Pods-MiracastSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MiracastSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		442021FD5F7901AAED8C63A07AD3F4FC /* Pods-MiracastSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MiracastSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		45357F8CA2F65E52AE978BB5BE1C7AD6 /* Pods-MiracastSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MiracastSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -57,55 +50,52 @@
 		58554E4A7EE4F20F825F51EFA8207842 /* Pods-MiracastSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MiracastSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5BF054C4F92014C6C14E948A788A60AB /* Pods_MiracastSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MiracastSDK_Example.framework; path = "Pods-MiracastSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E64FAA45FF986F299DF917E76ED2863 /* libMiracastSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libMiracastSDK.a; path = Source/libMiracastSDK.a; sourceTree = "<group>"; };
 		75AE01037DCC6422A0904DB43DD704FA /* Pods-MiracastSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MiracastSDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		80099993A41F6454DA3FEAB68D45868E /* MiracastSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MiracastSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		79D72CA17A127637B47F0EA785BDAD95 /* MCRenderManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCRenderManager.h; path = Source/Public/MCRenderManager.h; sourceTree = "<group>"; };
+		808B8D78553870E373A2678CEB8770E4 /* MCPlayerBanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCPlayerBanner.h; path = Source/Public/MCPlayerBanner.h; sourceTree = "<group>"; };
 		84859AB378A0D086BE1E719552296264 /* Pods-MiracastSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MiracastSDK_Tests.modulemap"; sourceTree = "<group>"; };
-		8498BA5DE02384F47DFB0D57FC1D0CCA /* MCDeviceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCDeviceManager.h; path = Source/Public/MCDeviceManager.h; sourceTree = "<group>"; };
 		87340DD420392CF4995A6C4B6A8E02A0 /* Pods-MiracastSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MiracastSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8D9D570DD9857C2109D9385259BFDDA0 /* MCPlayerBanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCPlayerBanner.h; path = Source/Public/MCPlayerBanner.h; sourceTree = "<group>"; };
 		9062BDE2B9E92867792338BEA93F5E75 /* NJKWebViewProgress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NJKWebViewProgress.h; path = NJKWebViewProgress/NJKWebViewProgress.h; sourceTree = "<group>"; };
-		90C56A85B206EE866AB9B92D45A67D16 /* MCWifiManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCWifiManager.h; path = Source/Public/MCWifiManager.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95D639DDF1D431E53D967FA7AF00736E /* NJKWebViewProgress-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NJKWebViewProgress-dummy.m"; sourceTree = "<group>"; };
+		987F897136396C44667925886F1E9C23 /* libMiracastSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libMiracastSDK.a; path = Source/libMiracastSDK.a; sourceTree = "<group>"; };
 		9EE361EA37A522A069644FD0416364DA /* Pods-MiracastSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MiracastSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9F8BB8485FD69BADF46260FD0D36118E /* Pods-MiracastSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MiracastSDK_Example.modulemap"; sourceTree = "<group>"; };
 		9FD4416EDF70AD3CD4FC5A92DF8D51C2 /* Pods-MiracastSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MiracastSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A0F707931D7D12A6A147279E9FA27FFF /* RTTURLProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTTURLProtocol.h; path = Source/Public/RTTURLProtocol.h; sourceTree = "<group>"; };
 		A1A70D6DF0698BD48DE518C874C0DA17 /* Pods-MiracastSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MiracastSDK_Example-resources.sh"; sourceTree = "<group>"; };
 		A2F6A7EB9E153EA8B5B79A230DBEDE7E /* Pods-MiracastSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MiracastSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AE1C181005C3A00280C105F26406780B /* MCFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCFileManager.h; path = Source/Public/MCFileManager.h; sourceTree = "<group>"; };
 		AF51555E365E3C5B326677627A159D8C /* NJKWebViewProgress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NJKWebViewProgress.framework; path = NJKWebViewProgress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B35E3B5E6E5BFC88B1A5AAB335734578 /* Pods-MiracastSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MiracastSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B7FAEC88190BCB00584A7EC4C5E9FD98 /* MCFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCFileManager.h; path = Source/Public/MCFileManager.h; sourceTree = "<group>"; };
 		BBD6C790E4956BFB77BF6E05A9CA7982 /* Pods-MiracastSDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MiracastSDK_Tests-resources.sh"; sourceTree = "<group>"; };
 		C767ADE9A11B23C6BEE4E562B0AC55E6 /* NJKWebViewProgress.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NJKWebViewProgress.modulemap; sourceTree = "<group>"; };
 		CD1C84C9D4C6B497FC3E4BBF6736D59F /* NJKWebViewProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NJKWebViewProgressView.m; path = NJKWebViewProgress/NJKWebViewProgressView.m; sourceTree = "<group>"; };
-		CF80894F7544132CF318A25F5A85F0BB /* Miracast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Miracast.h; path = Source/Public/Miracast.h; sourceTree = "<group>"; };
 		D3ADADD8AFBDBFC53839EA4CA80135E1 /* Pods_MiracastSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MiracastSDK_Tests.framework; path = "Pods-MiracastSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D91574CB9F0074A970CD0D6D92A0BFB8 /* MCPlayMediaViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCPlayMediaViewController.h; path = Source/Public/MCPlayMediaViewController.h; sourceTree = "<group>"; };
 		D9C014B2E07CB99EF72B2C0EA76AC9F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E350088AF8A5E16ED2760023AC42A19D /* RTTURLProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTTURLProtocol.h; path = Source/Public/RTTURLProtocol.h; sourceTree = "<group>"; };
+		DB7D9988B51018575D3AA691E5F108DD /* Miracast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Miracast.h; path = Source/Public/Miracast.h; sourceTree = "<group>"; };
 		E5552C1ACFE71B9E0E56C6A3EE0B7262 /* NJKWebViewProgress-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NJKWebViewProgress-prefix.pch"; sourceTree = "<group>"; };
 		EC0AEA6DD889C773FB3D1FBC10D3C4D3 /* NJKWebViewProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NJKWebViewProgressView.h; path = NJKWebViewProgress/NJKWebViewProgressView.h; sourceTree = "<group>"; };
-		F638DFC857F85280A98785BD053A56DB /* Miracast.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Miracast.xcassets; path = Source/Assets/Miracast.xcassets; sourceTree = "<group>"; };
-		F6B97B77731F24F75CE15159692ADF0F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		F89C8415CFA6AB162470798B683DA277 /* CLUPnPAVPositionInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLUPnPAVPositionInfo.h; path = Source/Public/CLUPnPAVPositionInfo.h; sourceTree = "<group>"; };
 		F8A15CDBF7FBE132D6BFBBD699F9DA83 /* Pods-MiracastSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MiracastSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		FDD98FE848E377F32758CB5EA3283B0B /* MCRenderManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCRenderManager.h; path = Source/Public/MCRenderManager.h; sourceTree = "<group>"; };
+		FA0154589EA4729486DF06D6640C3FBB /* MCSuspendButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCSuspendButton.h; path = Source/Public/MCSuspendButton.h; sourceTree = "<group>"; };
+		FCDA80F84AABCAAD84C32CC9358C1A2E /* CLUPnPAVPositionInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLUPnPAVPositionInfo.h; path = Source/Public/CLUPnPAVPositionInfo.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0B837D63D1EA8E246A7514A7D9D67352 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B9468084B93A229B686406437EC3156 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		17181CF799976D86AA613B06C8DC525F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				52BEFEE2F96056366CE6737A72AB7EE2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7F01691973ADE432959E244349B1D0F0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EF3F8167ED881AF2CE859C27B3F0F116 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,20 +166,12 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		340690A27CACE40AB9080B7616E9D5AB /* Resources */ = {
+		4DF61347BD9C84AED05C999282BEFD41 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F638DFC857F85280A98785BD053A56DB /* Miracast.xcassets */,
+				987F897136396C44667925886F1E9C23 /* libMiracastSDK.a */,
 			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		585A6D3E5015B101282FD51B1072AB9C /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EAF960AAA324BEDBCDBA111CE7102767 /* MiracastSDK */,
-			);
-			name = "Development Pods";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
@@ -213,7 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				585A6D3E5015B101282FD51B1072AB9C /* Development Pods */,
+				82B5C4BE82BA5FE8E190F6806A912D3C /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				25D99E4D0860BCDB6DE97DDAD97A7CFB /* Pods */,
 				0DA60D8D87DF5AC7F825A34F5B39A740 /* Products */,
@@ -221,12 +203,12 @@
 			);
 			sourceTree = "<group>";
 		};
-		9758DCD3092CFDAD058E53793D835FB3 /* Frameworks */ = {
+		82B5C4BE82BA5FE8E190F6806A912D3C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5E64FAA45FF986F299DF917E76ED2863 /* libMiracastSDK.a */,
+				BE494620F7D89D8764B867DC054E69A9 /* MiracastSDK */,
 			);
-			name = Frameworks;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		A9F93FFA495F0E25240F5B194CABE92F /* Support Files */ = {
@@ -251,6 +233,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BE494620F7D89D8764B867DC054E69A9 /* MiracastSDK */ = {
+			isa = PBXGroup;
+			children = (
+				FCDA80F84AABCAAD84C32CC9358C1A2E /* CLUPnPAVPositionInfo.h */,
+				1A160FC55D90570367DAD569DB034771 /* MCDeviceManager.h */,
+				AE1C181005C3A00280C105F26406780B /* MCFileManager.h */,
+				808B8D78553870E373A2678CEB8770E4 /* MCPlayerBanner.h */,
+				D91574CB9F0074A970CD0D6D92A0BFB8 /* MCPlayMediaViewController.h */,
+				79D72CA17A127637B47F0EA785BDAD95 /* MCRenderManager.h */,
+				FA0154589EA4729486DF06D6640C3FBB /* MCSuspendButton.h */,
+				19A274D93DBF227328799477852FE78F /* MCWifiManager.h */,
+				DB7D9988B51018575D3AA691E5F108DD /* Miracast.h */,
+				A0F707931D7D12A6A147279E9FA27FFF /* RTTURLProtocol.h */,
+				4DF61347BD9C84AED05C999282BEFD41 /* Frameworks */,
+				EA065C9A44CBCD9DB542DAE312EE039A /* Resources */,
+			);
+			name = MiracastSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		C19B84ECBD9CA5CCD1E49FB28A2D48AE /* ProgressView */ = {
 			isa = PBXGroup;
 			children = (
@@ -260,35 +262,12 @@
 			name = ProgressView;
 			sourceTree = "<group>";
 		};
-		DEBEB4239DDC09BA3A0CD91CBFDFE935 /* Pod */ = {
+		EA065C9A44CBCD9DB542DAE312EE039A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F6B97B77731F24F75CE15159692ADF0F /* LICENSE */,
-				80099993A41F6454DA3FEAB68D45868E /* MiracastSDK.podspec */,
-				07F61886218FE7BE7DB3E886572357D9 /* README.md */,
+				03D04164DB307B33DF573E678B6CA180 /* Miracast.xcassets */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		EAF960AAA324BEDBCDBA111CE7102767 /* MiracastSDK */ = {
-			isa = PBXGroup;
-			children = (
-				F89C8415CFA6AB162470798B683DA277 /* CLUPnPAVPositionInfo.h */,
-				8498BA5DE02384F47DFB0D57FC1D0CCA /* MCDeviceManager.h */,
-				B7FAEC88190BCB00584A7EC4C5E9FD98 /* MCFileManager.h */,
-				8D9D570DD9857C2109D9385259BFDDA0 /* MCPlayerBanner.h */,
-				2A748686306F1F0152FD1A41B5936D45 /* MCPlayMediaViewController.h */,
-				FDD98FE848E377F32758CB5EA3283B0B /* MCRenderManager.h */,
-				3268E5F6721929960376D2DB46FC5624 /* MCSuspendButton.h */,
-				90C56A85B206EE866AB9B92D45A67D16 /* MCWifiManager.h */,
-				CF80894F7544132CF318A25F5A85F0BB /* Miracast.h */,
-				E350088AF8A5E16ED2760023AC42A19D /* RTTURLProtocol.h */,
-				9758DCD3092CFDAD058E53793D835FB3 /* Frameworks */,
-				DEBEB4239DDC09BA3A0CD91CBFDFE935 /* Pod */,
-				340690A27CACE40AB9080B7616E9D5AB /* Resources */,
-			);
-			name = MiracastSDK;
-			path = ../..;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		F9CD78100B6AC5E4D682F00FACA952CF /* Pods-MiracastSDK_Tests */ = {
@@ -312,19 +291,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		547A7519259B50C77A9997D3DF5C35B5 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4B3866F215319737397093AFE2C4B292 /* Pods-MiracastSDK_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5E61DD98725CDA5BB13685A5D257C13B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1A520AA1499AC529D7FF137FD9DB6887 /* Pods-MiracastSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70D14405C09F55BF41FBAD53C4D9D875 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B885536214FFD9016E982A1A88B90999 /* Pods-MiracastSDK_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,19 +320,18 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		84460E2A5E2910C0D1D1508D69F128F6 /* Pods-MiracastSDK_Tests */ = {
+		00C9E949168DC8203DCA0D588D0F54BB /* Pods-MiracastSDK_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D1CC8E93D50D7F7A435BD5282AF43668 /* Build configuration list for PBXNativeTarget "Pods-MiracastSDK_Tests" */;
+			buildConfigurationList = E71E7EC331031A4DEF69BB3414B64F61 /* Build configuration list for PBXNativeTarget "Pods-MiracastSDK_Tests" */;
 			buildPhases = (
-				547A7519259B50C77A9997D3DF5C35B5 /* Headers */,
-				1A10155143FC645F3B08C2D471FD5E2D /* Sources */,
-				7F01691973ADE432959E244349B1D0F0 /* Frameworks */,
-				0F1127CE0CC9E7F0FAF9F2EACAC17E6C /* Resources */,
+				70D14405C09F55BF41FBAD53C4D9D875 /* Headers */,
+				7810C3BA5F255B942D36E15B99B8C5EF /* Sources */,
+				0B837D63D1EA8E246A7514A7D9D67352 /* Frameworks */,
+				1447D5A02B986EBED5BAF5B2E28871D2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7C1744D844860E1054DDF6A14D3C3946 /* PBXTargetDependency */,
 			);
 			name = "Pods-MiracastSDK_Tests";
 			productName = "Pods-MiracastSDK_Tests";
@@ -420,13 +398,13 @@
 			targets = (
 				FA1290BD9C46E61BF154FE7DDA8D128C /* NJKWebViewProgress */,
 				AD858F5215F5D65E890286119899BF90 /* Pods-MiracastSDK_Example */,
-				84460E2A5E2910C0D1D1508D69F128F6 /* Pods-MiracastSDK_Tests */,
+				00C9E949168DC8203DCA0D588D0F54BB /* Pods-MiracastSDK_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0F1127CE0CC9E7F0FAF9F2EACAC17E6C /* Resources */ = {
+		1447D5A02B986EBED5BAF5B2E28871D2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -450,11 +428,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1A10155143FC645F3B08C2D471FD5E2D /* Sources */ = {
+		7810C3BA5F255B942D36E15B99B8C5EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C3C6E3A168B7CEC7ED4CFC4979F48E9 /* Pods-MiracastSDK_Tests-dummy.m in Sources */,
+				EBC8175B610273C6927B730452342580 /* Pods-MiracastSDK_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,177 +463,13 @@
 			target = FA1290BD9C46E61BF154FE7DDA8D128C /* NJKWebViewProgress */;
 			targetProxy = FE7EE5BBAC120920A40030F399E1CC89 /* PBXContainerItemProxy */;
 		};
-		7C1744D844860E1054DDF6A14D3C3946 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-MiracastSDK_Example";
-			target = AD858F5215F5D65E890286119899BF90 /* Pods-MiracastSDK_Example */;
-			targetProxy = DDB280F93722C78176388E2FDD74F93E /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0D0BA3A79E99E31932D3D4A1DD84BCD9 /* Debug */ = {
+		48628ABD3C129BB00D79A396E7ECD9DB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A2F6A7EB9E153EA8B5B79A230DBEDE7E /* Pods-MiracastSDK_Example.debug.xcconfig */;
+			baseConfigurationReference = B35E3B5E6E5BFC88B1A5AAB335734578 /* Pods-MiracastSDK_Tests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MiracastSDK_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MiracastSDK_Example/Pods-MiracastSDK_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		69604D559633DA7E77B761E075E95D35 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 105259A3AEBB46BB58C28E9ACDDFD597 /* NJKWebViewProgress.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NJKWebViewProgress/NJKWebViewProgress-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NJKWebViewProgress/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NJKWebViewProgress/NJKWebViewProgress.modulemap";
-				PRODUCT_MODULE_NAME = NJKWebViewProgress;
-				PRODUCT_NAME = NJKWebViewProgress;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		789AD58FF2D6C6FF2B03B5AF87805F23 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1DAFC98B82F688F40DBAC05819BD5BB0 /* Pods-MiracastSDK_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MiracastSDK_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MiracastSDK_Example/Pods-MiracastSDK_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9CEB49E71475F374B622C2AA6916E637 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FD4416EDF70AD3CD4FC5A92DF8D51C2 /* Pods-MiracastSDK_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -675,16 +489,17 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = Pods_MiracastSDK_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		BB7EF004ADE2898F56297A0AC09379A5 /* Debug */ = {
+		48CDF19DC375FD67C6A272B72022D615 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 105259A3AEBB46BB58C28E9ACDDFD597 /* NJKWebViewProgress.xcconfig */;
 			buildSettings = {
@@ -703,7 +518,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/NJKWebViewProgress/NJKWebViewProgress.modulemap";
-				PRODUCT_MODULE_NAME = NJKWebViewProgress;
 				PRODUCT_NAME = NJKWebViewProgress;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -714,7 +528,102 @@
 			};
 			name = Debug;
 		};
-		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+		5D90B789CA121E2502453BC8DB61C1C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2F6A7EB9E153EA8B5B79A230DBEDE7E /* Pods-MiracastSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MiracastSDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MiracastSDK_Example/Pods-MiracastSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MiracastSDK_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5E151EC405DA2012BFCCFDC992B5B4F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 105259A3AEBB46BB58C28E9ACDDFD597 /* NJKWebViewProgress.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NJKWebViewProgress/NJKWebViewProgress-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NJKWebViewProgress/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NJKWebViewProgress/NJKWebViewProgress.modulemap";
+				PRODUCT_NAME = NJKWebViewProgress;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9F672744534AA4374215AC5A56263693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DAFC98B82F688F40DBAC05819BD5BB0 /* Pods-MiracastSDK_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MiracastSDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MiracastSDK_Example/Pods-MiracastSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MiracastSDK_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AF8935E791485A439F1974120BCFC36D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -746,7 +655,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -772,17 +680,17 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		DA09BA25D62288371F3D2C039745289E /* Release */ = {
+		B35236A441854FFB139D0F5D68A21A6A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B35E3B5E6E5BFC88B1A5AAB335734578 /* Pods-MiracastSDK_Tests.release.xcconfig */;
+			baseConfigurationReference = 9FD4416EDF70AD3CD4FC5A92DF8D51C2 /* Pods-MiracastSDK_Tests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -802,13 +710,71 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = Pods_MiracastSDK_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BBF697CCDC5327D3346CDD1AA82C8AC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
@@ -818,8 +784,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
-				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+				AF8935E791485A439F1974120BCFC36D /* Debug */,
+				BBF697CCDC5327D3346CDD1AA82C8AC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -827,17 +793,8 @@
 		AAD8611BAA4F46825D297E01759AEAED /* Build configuration list for PBXNativeTarget "NJKWebViewProgress" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BB7EF004ADE2898F56297A0AC09379A5 /* Debug */,
-				69604D559633DA7E77B761E075E95D35 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D1CC8E93D50D7F7A435BD5282AF43668 /* Build configuration list for PBXNativeTarget "Pods-MiracastSDK_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9CEB49E71475F374B622C2AA6916E637 /* Debug */,
-				DA09BA25D62288371F3D2C039745289E /* Release */,
+				48CDF19DC375FD67C6A272B72022D615 /* Debug */,
+				5E151EC405DA2012BFCCFDC992B5B4F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -845,8 +802,17 @@
 		E6F6754200DF2BFCEE9C9C22FBF35539 /* Build configuration list for PBXNativeTarget "Pods-MiracastSDK_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0D0BA3A79E99E31932D3D4A1DD84BCD9 /* Debug */,
-				789AD58FF2D6C6FF2B03B5AF87805F23 /* Release */,
+				5D90B789CA121E2502453BC8DB61C1C2 /* Debug */,
+				9F672744534AA4374215AC5A56263693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E71E7EC331031A4DEF69BB3414B64F61 /* Build configuration list for PBXNativeTarget "Pods-MiracastSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B35236A441854FFB139D0F5D68A21A6A /* Debug */,
+				48628ABD3C129BB00D79A396E7ECD9DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

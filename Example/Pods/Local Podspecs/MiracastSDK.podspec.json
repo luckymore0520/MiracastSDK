@@ -48,5 +48,5 @@
     "Accelerate",
     "QuartzCore"
   ],
-  "resources": "Source/Assets/Miracast.xcassets"
+  "resources": "Source/Miracast.bundle/Miracast.xcassets"
 }

@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.ios.vendored_libraries   = 'Source/libMiracastSDK.a'
   s.libraries = 'xml2','z'
   s.framework = "LocalAuthentication", "MobileCoreServices", "Photos", "SystemConfiguration", "MediaPlayer", "AVFoundation", "MapKit", "Foundation", "UIKit", "CoreGraphics", "AudioToolbox", "CoreImage", "Accelerate", "QuartzCore"
-  s.resources = 'Source/Assets/Miracast.xcassets'
+  s.resources = 'Source/Miracast.bundle/Miracast.xcassets'
 end
