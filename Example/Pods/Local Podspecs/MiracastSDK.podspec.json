@@ -9,11 +9,11 @@
   "authors": {
     "njuluckwang": "njuluckwang@gmail.com"
   },
-  "homepage": "https://github/luckymore0520/MiracastSDK",
+  "homepage": "https://github.com/luckymore0520/MiracastSDK",
   "description": "MiracastSDK",
   "requires_arc": true,
   "source": {
-    "git": "https://github.com/luckymore0520/MiracastSDK",
+    "git": "https://github.com/luckymore0520/MiracastSDK.git",
     "tag": "0.1.0"
   },
   "platforms": {
@@ -21,12 +21,12 @@
   },
   "ios": {
     "source_files": [
-      "MiracastSDK/ios/Public/*.h"
+      "Source/Public/*.h"
     ],
     "public_header_files": [
-      "MiracastSDK/ios/Public/*.h"
+      "Source/Public/*.h"
     ],
-    "vendored_libraries": "MiracastSDK/ios/libMiracastSDK.a"
+    "vendored_libraries": "Source/libMiracastSDK.a"
   },
   "libraries": [
     "xml2",
@@ -48,5 +48,5 @@
     "Accelerate",
     "QuartzCore"
   ],
-  "resources": "Assets/Miracast.xcassets"
+  "resources": "Source/Assets/Miracast.xcassets"
 }

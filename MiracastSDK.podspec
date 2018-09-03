@@ -10,10 +10,10 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'https://github.com/luckymore0520/MiracastSDK.git', :tag => s.version}
 
   s.ios.deployment_target    = '9.0'
-  s.ios.source_files = ['MiracastSDK/ios/Public/*.h']
-  s.ios.public_header_files = ['MiracastSDK/ios/Public/*.h']
-  s.ios.vendored_libraries   = 'MiracastSDK/ios/libMiracastSDK.a'
+  s.ios.source_files = ['Source/Public/*.h']
+  s.ios.public_header_files = ['Source/Public/*.h']
+  s.ios.vendored_libraries   = 'Source/libMiracastSDK.a'
   s.libraries = 'xml2','z'
   s.framework = "LocalAuthentication", "MobileCoreServices", "Photos", "SystemConfiguration", "MediaPlayer", "AVFoundation", "MapKit", "Foundation", "UIKit", "CoreGraphics", "AudioToolbox", "CoreImage", "Accelerate", "QuartzCore"
-  s.resources = 'Assets/Miracast.xcassets'
+  s.resources = 'Source/Assets/Miracast.xcassets'
 end

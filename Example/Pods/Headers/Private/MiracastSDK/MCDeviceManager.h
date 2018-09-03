@@ -1,1 +1,1 @@
-../../../../../MiracastSDK/ios/Public/MCDeviceManager.h
+../../../../../Source/Public/MCDeviceManager.h
