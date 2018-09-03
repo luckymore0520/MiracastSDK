@@ -37,5 +37,5 @@ TODO: Add long description of the pod here.
   s.ios.vendored_libraries   = 'MiracastSDK/libMiracastSDK.a'
   s.libraries = 'xml2','z'
   s.framework = "LocalAuthentication", "MobileCoreServices", "Photos", "SystemConfiguration", "MediaPlayer", "AVFoundation", "MapKit", "Foundation", "UIKit", "CoreGraphics", "AudioToolbox", "CoreImage", "Accelerate", "QuartzCore"
-  s.resources = 'MiracastSDK/Resources/Miracast.xcassets'
+  s.resources = 'MiracastSDK/Resources/*'
 end
