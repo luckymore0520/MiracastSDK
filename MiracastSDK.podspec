@@ -22,7 +22,7 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.name = "MiracastSDK"
-  s.version = "0.1.0"
+  s.version = "0.1.1"
   s.summary = "MiracastSDK"
   s.license = {"type"=>"MIT", "file"=>"LICENSE"}
   s.authors = {"njuluckwang"=>"njuluckwang@gmail.com"}
