@@ -2,7 +2,7 @@
 //  MiracastSDKTests.m
 //  MiracastSDKTests
 //
-//  Created by Kun Wang on 08/30/2018.
+//  Created by Kun Wang on 09/03/2018.
 //  Copyright (c) 2018 Kun Wang. All rights reserved.
 //
 

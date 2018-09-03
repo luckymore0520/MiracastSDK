@@ -7,23 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C03D92F2137CC0300CA94B6 /* MCBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C03D92D2137CC0300CA94B6 /* MCBrowserViewController.m */; };
-		2C03D9302137CC0300CA94B6 /* MCBrowserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C03D92E2137CC0300CA94B6 /* MCBrowserViewController.xib */; };
-		492898F659DCFA5305E151D8 /* Pods_MiracastSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E9ABD5F6FA35264CF69FD63 /* Pods_MiracastSDK_Tests.framework */; };
+		2C2DE506213CFBE0003FA027 /* MCBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2DE503213CFBE0003FA027 /* MCBrowserViewController.m */; };
+		2C2DE507213CFBE0003FA027 /* MCBrowserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C2DE504213CFBE0003FA027 /* MCBrowserViewController.xib */; };
+		357C414A0913DE623E9ACE8E /* Pods_MiracastSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F914DE9803A5C1DD8B1DD294 /* Pods_MiracastSDK_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* MCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* MCAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* MCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* MCViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		61337AF6E53FE3E9AA3E6D4E /* Pods_MiracastSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E0D6B5D60C78CE5D2CFEDE1 /* Pods_MiracastSDK_Tests.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		E347F0AA08BEE3D7606E90EE /* Pods_MiracastSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBF2BFB6AA60DD08A3E8AF9E /* Pods_MiracastSDK_Example.framework */; };
+		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,14 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2AF18CEF288C367A647F1D5E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		2C03D9202137CA3A00CA94B6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		2C03D9232137CB0100CA94B6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		2C03D9252137CB1700CA94B6 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
-		2C03D92C2137CC0300CA94B6 /* MCBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCBrowserViewController.h; sourceTree = "<group>"; };
-		2C03D92D2137CC0300CA94B6 /* MCBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCBrowserViewController.m; sourceTree = "<group>"; };
-		2C03D92E2137CC0300CA94B6 /* MCBrowserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MCBrowserViewController.xib; sourceTree = "<group>"; };
-		2E9ABD5F6FA35264CF69FD63 /* Pods_MiracastSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiracastSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2174C61CA0E577A52FC30230 /* Pods-MiracastSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiracastSDK_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MiracastSDK_Tests/Pods-MiracastSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		267AA77286A80EC45960687F /* Pods-MiracastSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiracastSDK_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MiracastSDK_Example/Pods-MiracastSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2C2DE503213CFBE0003FA027 /* MCBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCBrowserViewController.m; sourceTree = "<group>"; };
+		2C2DE504213CFBE0003FA027 /* MCBrowserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MCBrowserViewController.xib; sourceTree = "<group>"; };
+		2C2DE505213CFBE0003FA027 /* MCBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCBrowserViewController.h; sourceTree = "<group>"; };
+		2E0D6B5D60C78CE5D2CFEDE1 /* Pods_MiracastSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiracastSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A505A2DE80724B16F7A109B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MiracastSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiracastSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,8 +55,6 @@
 		6003F59B195388D20070C39A /* MiracastSDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MiracastSDK-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* MCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* MCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* MCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* MCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* MiracastSDK_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiracastSDK_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -65,13 +63,12 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		85882A00AAE33ACF7D2BBA3B /* Pods-MiracastSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiracastSDK_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MiracastSDK_Example/Pods-MiracastSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		8805B04C76B3E4CBF755FECF /* Pods-MiracastSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiracastSDK_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MiracastSDK_Tests/Pods-MiracastSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9DE56EF9BF7929E2CFBCEFF0 /* Pods-MiracastSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiracastSDK_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MiracastSDK_Example/Pods-MiracastSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B8CCF9DFE50EA251702110A7 /* MiracastSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MiracastSDK.podspec; path = ../MiracastSDK.podspec; sourceTree = "<group>"; };
-		BBF2BFB6AA60DD08A3E8AF9E /* Pods_MiracastSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiracastSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C676E760E19DD729637BE34C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F2F69301EB0CF7418264ADB6 /* Pods-MiracastSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiracastSDK_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MiracastSDK_Tests/Pods-MiracastSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7B91166F60F35F38347B1752 /* Pods-MiracastSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiracastSDK_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MiracastSDK_Tests/Pods-MiracastSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D527F47F732347722F7DCFE8 /* Pods-MiracastSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiracastSDK_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MiracastSDK_Example/Pods-MiracastSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E76AB94093D44DD38E04A6AD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EDA659BB7B3054984C1C48D9 /* MiracastSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MiracastSDK.podspec; path = ../MiracastSDK.podspec; sourceTree = "<group>"; };
+		F914DE9803A5C1DD8B1DD294 /* Pods_MiracastSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiracastSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +76,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				E347F0AA08BEE3D7606E90EE /* Pods_MiracastSDK_Example.framework in Frameworks */,
+				357C414A0913DE623E9ACE8E /* Pods_MiracastSDK_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +90,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				492898F659DCFA5305E151D8 /* Pods_MiracastSDK_Tests.framework in Frameworks */,
+				61337AF6E53FE3E9AA3E6D4E /* Pods_MiracastSDK_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,7 +105,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				7E6D8948FDE3EA22AEABEA4B /* Pods */,
+				787E97820831EBFF2445A0A9 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,15 +121,12 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2C03D9252137CB1700CA94B6 /* MediaPlayer.framework */,
-				2C03D9232137CB0100CA94B6 /* MapKit.framework */,
-				2C03D9202137CA3A00CA94B6 /* AVFoundation.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				BBF2BFB6AA60DD08A3E8AF9E /* Pods_MiracastSDK_Example.framework */,
-				2E9ABD5F6FA35264CF69FD63 /* Pods_MiracastSDK_Tests.framework */,
+				F914DE9803A5C1DD8B1DD294 /* Pods_MiracastSDK_Example.framework */,
+				2E0D6B5D60C78CE5D2CFEDE1 /* Pods_MiracastSDK_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -139,13 +134,12 @@
 		6003F593195388D20070C39A /* Example for MiracastSDK */ = {
 			isa = PBXGroup;
 			children = (
-				2C03D92C2137CC0300CA94B6 /* MCBrowserViewController.h */,
-				2C03D92D2137CC0300CA94B6 /* MCBrowserViewController.m */,
-				2C03D92E2137CC0300CA94B6 /* MCBrowserViewController.xib */,
+				2C2DE505213CFBE0003FA027 /* MCBrowserViewController.h */,
+				2C2DE503213CFBE0003FA027 /* MCBrowserViewController.m */,
+				2C2DE504213CFBE0003FA027 /* MCBrowserViewController.xib */,
 				6003F59C195388D20070C39A /* MCAppDelegate.h */,
 				6003F59D195388D20070C39A /* MCAppDelegate.m */,
-				6003F5A5195388D20070C39A /* MCViewController.h */,
-				6003F5A6195388D20070C39A /* MCViewController.m */,
+				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -187,20 +181,20 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				B8CCF9DFE50EA251702110A7 /* MiracastSDK.podspec */,
-				2AF18CEF288C367A647F1D5E /* README.md */,
-				C676E760E19DD729637BE34C /* LICENSE */,
+				EDA659BB7B3054984C1C48D9 /* MiracastSDK.podspec */,
+				E76AB94093D44DD38E04A6AD /* README.md */,
+				3A505A2DE80724B16F7A109B /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		7E6D8948FDE3EA22AEABEA4B /* Pods */ = {
+		787E97820831EBFF2445A0A9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9DE56EF9BF7929E2CFBCEFF0 /* Pods-MiracastSDK_Example.debug.xcconfig */,
-				85882A00AAE33ACF7D2BBA3B /* Pods-MiracastSDK_Example.release.xcconfig */,
-				8805B04C76B3E4CBF755FECF /* Pods-MiracastSDK_Tests.debug.xcconfig */,
-				F2F69301EB0CF7418264ADB6 /* Pods-MiracastSDK_Tests.release.xcconfig */,
+				D527F47F732347722F7DCFE8 /* Pods-MiracastSDK_Example.debug.xcconfig */,
+				267AA77286A80EC45960687F /* Pods-MiracastSDK_Example.release.xcconfig */,
+				2174C61CA0E577A52FC30230 /* Pods-MiracastSDK_Tests.debug.xcconfig */,
+				7B91166F60F35F38347B1752 /* Pods-MiracastSDK_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -212,12 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "MiracastSDK_Example" */;
 			buildPhases = (
-				823FE09A43304A50FC321691 /* [CP] Check Pods Manifest.lock */,
+				4383DBD76B84ED19EFADD1FC /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				CA93EEFEE87BBD96D3CDE4EC /* [CP] Embed Pods Frameworks */,
-				6235B51D629D12CABC99EA5C /* [CP] Copy Pods Resources */,
+				6ED1D8C012B2E4B0A9F33703 /* [CP] Embed Pods Frameworks */,
+				7F66FB2EC2DD9349564C1704 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,12 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "MiracastSDK_Tests" */;
 			buildPhases = (
-				388FA9D23FAA7648164F8048 /* [CP] Check Pods Manifest.lock */,
+				2B8C164DBA12684EC4C9217B /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				1A7D8442A7E42970995B0FE8 /* [CP] Embed Pods Frameworks */,
-				7A121BC83EA4D8AA64F0CEC5 /* [CP] Copy Pods Resources */,
+				4685F7134C86B19FED378CF3 /* [CP] Embed Pods Frameworks */,
+				CDF940E026E1F3300E00E4A7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,9 +253,6 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Kun Wang";
 				TargetAttributes = {
-					6003F589195388D20070C39A = {
-						DevelopmentTeam = DCUYTT642Z;
-					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -291,7 +282,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C03D9302137CC0300CA94B6 /* MCBrowserViewController.xib in Resources */,
+				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				2C2DE507213CFBE0003FA027 /* MCBrowserViewController.xib in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -309,26 +301,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1A7D8442A7E42970995B0FE8 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MiracastSDK_Tests/Pods-MiracastSDK_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		388FA9D23FAA7648164F8048 /* [CP] Check Pods Manifest.lock */ = {
+		2B8C164DBA12684EC4C9217B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -346,48 +319,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6235B51D629D12CABC99EA5C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-MiracastSDK_Example/Pods-MiracastSDK_Example-resources.sh",
-				"${PODS_ROOT}/../../Source/Miracast.bundle/Miracast.xcassets",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MiracastSDK_Example/Pods-MiracastSDK_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7A121BC83EA4D8AA64F0CEC5 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MiracastSDK_Tests/Pods-MiracastSDK_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		823FE09A43304A50FC321691 /* [CP] Check Pods Manifest.lock */ = {
+		4383DBD76B84ED19EFADD1FC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -405,7 +337,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CA93EEFEE87BBD96D3CDE4EC /* [CP] Embed Pods Frameworks */ = {
+		4685F7134C86B19FED378CF3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MiracastSDK_Tests/Pods-MiracastSDK_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6ED1D8C012B2E4B0A9F33703 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -423,6 +370,39 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MiracastSDK_Example/Pods-MiracastSDK_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		7F66FB2EC2DD9349564C1704 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MiracastSDK_Example/Pods-MiracastSDK_Example-resources.sh",
+				"${PODS_ROOT}/../../MiracastSDK/Resources/Miracast.xcassets",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MiracastSDK_Example/Pods-MiracastSDK_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDF940E026E1F3300E00E4A7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MiracastSDK_Tests/Pods-MiracastSDK_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -431,9 +411,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* MCAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* MCViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				2C03D92F2137CC0300CA94B6 /* MCBrowserViewController.m in Sources */,
+				2C2DE506213CFBE0003FA027 /* MCBrowserViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,10 +537,9 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DE56EF9BF7929E2CFBCEFF0 /* Pods-MiracastSDK_Example.debug.xcconfig */;
+			baseConfigurationReference = D527F47F732347722F7DCFE8 /* Pods-MiracastSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = DCUYTT642Z;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MiracastSDK/MiracastSDK-Prefix.pch";
 				INFOPLIST_FILE = "MiracastSDK/MiracastSDK-Info.plist";
@@ -574,10 +552,9 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85882A00AAE33ACF7D2BBA3B /* Pods-MiracastSDK_Example.release.xcconfig */;
+			baseConfigurationReference = 267AA77286A80EC45960687F /* Pods-MiracastSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = DCUYTT642Z;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MiracastSDK/MiracastSDK-Prefix.pch";
 				INFOPLIST_FILE = "MiracastSDK/MiracastSDK-Info.plist";
@@ -590,7 +567,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8805B04C76B3E4CBF755FECF /* Pods-MiracastSDK_Tests.debug.xcconfig */;
+			baseConfigurationReference = 2174C61CA0E577A52FC30230 /* Pods-MiracastSDK_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -614,7 +591,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2F69301EB0CF7418264ADB6 /* Pods-MiracastSDK_Tests.release.xcconfig */;
+			baseConfigurationReference = 7B91166F60F35F38347B1752 /* Pods-MiracastSDK_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

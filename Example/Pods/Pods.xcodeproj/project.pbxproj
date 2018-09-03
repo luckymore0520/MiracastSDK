@@ -33,53 +33,53 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03D04164DB307B33DF573E678B6CA180 /* Miracast.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Miracast.xcassets; path = Source/Miracast.bundle/Miracast.xcassets; sourceTree = "<group>"; };
+		0988D5D604C89A2DEA08AB754D1E1D01 /* Miracast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Miracast.h; path = MiracastSDK/Public/Miracast.h; sourceTree = "<group>"; };
 		0E00AA9C3A1461D2064BA4D7565B4DFF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		105259A3AEBB46BB58C28E9ACDDFD597 /* NJKWebViewProgress.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NJKWebViewProgress.xcconfig; sourceTree = "<group>"; };
 		129F8681C03B22B4C8543C38C4DEC4EC /* Pods-MiracastSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MiracastSDK_Tests-dummy.m"; sourceTree = "<group>"; };
 		1435A3ABF9214AB01DA7DD1372285BF9 /* Pods-MiracastSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MiracastSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
-		19A274D93DBF227328799477852FE78F /* MCWifiManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCWifiManager.h; path = Source/Public/MCWifiManager.h; sourceTree = "<group>"; };
-		1A160FC55D90570367DAD569DB034771 /* MCDeviceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCDeviceManager.h; path = Source/Public/MCDeviceManager.h; sourceTree = "<group>"; };
+		15D542111AB9ACFEBE9E985BB5B4C457 /* MCWifiManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCWifiManager.h; path = MiracastSDK/Public/MCWifiManager.h; sourceTree = "<group>"; };
 		1DAFC98B82F688F40DBAC05819BD5BB0 /* Pods-MiracastSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MiracastSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1E7D5E56419410C71A7039E4A1B02F42 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F0B12BB74EE319D4D924E1338BAEA30 /* MCFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCFileManager.h; path = MiracastSDK/Public/MCFileManager.h; sourceTree = "<group>"; };
+		1F658BC9439BCFE4EB4438798BF49428 /* MCSuspendButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCSuspendButton.h; path = MiracastSDK/Public/MCSuspendButton.h; sourceTree = "<group>"; };
 		3C98208282CB79C5E4572AFE116D40AE /* Pods-MiracastSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MiracastSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		41DE7D7BB01B7EBEC9F80D5E38EAC584 /* Miracast.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Miracast.xcassets; path = MiracastSDK/Resources/Miracast.xcassets; sourceTree = "<group>"; };
 		442021FD5F7901AAED8C63A07AD3F4FC /* Pods-MiracastSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MiracastSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		45357F8CA2F65E52AE978BB5BE1C7AD6 /* Pods-MiracastSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MiracastSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4DF8F37EEC76696E8AB8B8CEFFE0B11B /* NJKWebViewProgress-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NJKWebViewProgress-umbrella.h"; sourceTree = "<group>"; };
 		56C1BA5A9F606D202D15A6C445E81384 /* NJKWebViewProgress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NJKWebViewProgress.m; path = NJKWebViewProgress/NJKWebViewProgress.m; sourceTree = "<group>"; };
 		58554E4A7EE4F20F825F51EFA8207842 /* Pods-MiracastSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MiracastSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		59D0D42C21BF5124198AFFF423D86FF7 /* libMiracastSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libMiracastSDK.a; path = MiracastSDK/libMiracastSDK.a; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5BF054C4F92014C6C14E948A788A60AB /* Pods_MiracastSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MiracastSDK_Example.framework; path = "Pods-MiracastSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75AE01037DCC6422A0904DB43DD704FA /* Pods-MiracastSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MiracastSDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		79D72CA17A127637B47F0EA785BDAD95 /* MCRenderManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCRenderManager.h; path = Source/Public/MCRenderManager.h; sourceTree = "<group>"; };
-		808B8D78553870E373A2678CEB8770E4 /* MCPlayerBanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCPlayerBanner.h; path = Source/Public/MCPlayerBanner.h; sourceTree = "<group>"; };
+		79EFFA4F20A4D928A87525691128FE1E /* RTTURLProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTTURLProtocol.h; path = MiracastSDK/Public/RTTURLProtocol.h; sourceTree = "<group>"; };
 		84859AB378A0D086BE1E719552296264 /* Pods-MiracastSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MiracastSDK_Tests.modulemap"; sourceTree = "<group>"; };
 		87340DD420392CF4995A6C4B6A8E02A0 /* Pods-MiracastSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MiracastSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8DAB18DB706CC80CCF3CBA19B806A15F /* MCPlayerBanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCPlayerBanner.h; path = MiracastSDK/Public/MCPlayerBanner.h; sourceTree = "<group>"; };
 		9062BDE2B9E92867792338BEA93F5E75 /* NJKWebViewProgress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NJKWebViewProgress.h; path = NJKWebViewProgress/NJKWebViewProgress.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95D639DDF1D431E53D967FA7AF00736E /* NJKWebViewProgress-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NJKWebViewProgress-dummy.m"; sourceTree = "<group>"; };
-		987F897136396C44667925886F1E9C23 /* libMiracastSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libMiracastSDK.a; path = Source/libMiracastSDK.a; sourceTree = "<group>"; };
+		99431D15D54DA9660D0DCEDAC8A5EA50 /* MCDeviceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCDeviceManager.h; path = MiracastSDK/Public/MCDeviceManager.h; sourceTree = "<group>"; };
 		9EE361EA37A522A069644FD0416364DA /* Pods-MiracastSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MiracastSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9F8BB8485FD69BADF46260FD0D36118E /* Pods-MiracastSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MiracastSDK_Example.modulemap"; sourceTree = "<group>"; };
 		9FD4416EDF70AD3CD4FC5A92DF8D51C2 /* Pods-MiracastSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MiracastSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A0F707931D7D12A6A147279E9FA27FFF /* RTTURLProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTTURLProtocol.h; path = Source/Public/RTTURLProtocol.h; sourceTree = "<group>"; };
 		A1A70D6DF0698BD48DE518C874C0DA17 /* Pods-MiracastSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MiracastSDK_Example-resources.sh"; sourceTree = "<group>"; };
 		A2F6A7EB9E153EA8B5B79A230DBEDE7E /* Pods-MiracastSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MiracastSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		AE1C181005C3A00280C105F26406780B /* MCFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCFileManager.h; path = Source/Public/MCFileManager.h; sourceTree = "<group>"; };
+		A83318355B826765ADC6283295E3E5BB /* MCRenderManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCRenderManager.h; path = MiracastSDK/Public/MCRenderManager.h; sourceTree = "<group>"; };
+		AE0A4709C3F5A8C47F24E613FA9FBB42 /* MCPlayMediaViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCPlayMediaViewController.h; path = MiracastSDK/Public/MCPlayMediaViewController.h; sourceTree = "<group>"; };
 		AF51555E365E3C5B326677627A159D8C /* NJKWebViewProgress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NJKWebViewProgress.framework; path = NJKWebViewProgress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B35E3B5E6E5BFC88B1A5AAB335734578 /* Pods-MiracastSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MiracastSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BBD6C790E4956BFB77BF6E05A9CA7982 /* Pods-MiracastSDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MiracastSDK_Tests-resources.sh"; sourceTree = "<group>"; };
 		C767ADE9A11B23C6BEE4E562B0AC55E6 /* NJKWebViewProgress.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NJKWebViewProgress.modulemap; sourceTree = "<group>"; };
 		CD1C84C9D4C6B497FC3E4BBF6736D59F /* NJKWebViewProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NJKWebViewProgressView.m; path = NJKWebViewProgress/NJKWebViewProgressView.m; sourceTree = "<group>"; };
 		D3ADADD8AFBDBFC53839EA4CA80135E1 /* Pods_MiracastSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MiracastSDK_Tests.framework; path = "Pods-MiracastSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D91574CB9F0074A970CD0D6D92A0BFB8 /* MCPlayMediaViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCPlayMediaViewController.h; path = Source/Public/MCPlayMediaViewController.h; sourceTree = "<group>"; };
 		D9C014B2E07CB99EF72B2C0EA76AC9F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB7D9988B51018575D3AA691E5F108DD /* Miracast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Miracast.h; path = Source/Public/Miracast.h; sourceTree = "<group>"; };
 		E5552C1ACFE71B9E0E56C6A3EE0B7262 /* NJKWebViewProgress-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NJKWebViewProgress-prefix.pch"; sourceTree = "<group>"; };
 		EC0AEA6DD889C773FB3D1FBC10D3C4D3 /* NJKWebViewProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NJKWebViewProgressView.h; path = NJKWebViewProgress/NJKWebViewProgressView.h; sourceTree = "<group>"; };
 		F8A15CDBF7FBE132D6BFBBD699F9DA83 /* Pods-MiracastSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MiracastSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		FA0154589EA4729486DF06D6640C3FBB /* MCSuspendButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCSuspendButton.h; path = Source/Public/MCSuspendButton.h; sourceTree = "<group>"; };
-		FCDA80F84AABCAAD84C32CC9358C1A2E /* CLUPnPAVPositionInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLUPnPAVPositionInfo.h; path = Source/Public/CLUPnPAVPositionInfo.h; sourceTree = "<group>"; };
+		FB46199623D5D9443CCCA74D616E6DA0 /* CLUPnPAVPositionInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLUPnPAVPositionInfo.h; path = MiracastSDK/Public/CLUPnPAVPositionInfo.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,20 +166,32 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		4DF61347BD9C84AED05C999282BEFD41 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				987F897136396C44667925886F1E9C23 /* libMiracastSDK.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		70F47275D341E8E74F54DB07AEAC8D25 /* MiracastSDK */ = {
+			isa = PBXGroup;
+			children = (
+				FB46199623D5D9443CCCA74D616E6DA0 /* CLUPnPAVPositionInfo.h */,
+				99431D15D54DA9660D0DCEDAC8A5EA50 /* MCDeviceManager.h */,
+				1F0B12BB74EE319D4D924E1338BAEA30 /* MCFileManager.h */,
+				8DAB18DB706CC80CCF3CBA19B806A15F /* MCPlayerBanner.h */,
+				AE0A4709C3F5A8C47F24E613FA9FBB42 /* MCPlayMediaViewController.h */,
+				A83318355B826765ADC6283295E3E5BB /* MCRenderManager.h */,
+				1F658BC9439BCFE4EB4438798BF49428 /* MCSuspendButton.h */,
+				15D542111AB9ACFEBE9E985BB5B4C457 /* MCWifiManager.h */,
+				0988D5D604C89A2DEA08AB754D1E1D01 /* Miracast.h */,
+				79EFFA4F20A4D928A87525691128FE1E /* RTTURLProtocol.h */,
+				ED43C90E3D79AA353EA96E74ADFA0BB2 /* Frameworks */,
+				EE96EEA654A02D9835CB13B9ADD7C64B /* Resources */,
+			);
+			name = MiracastSDK;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		790E23AA0C9948FB69417C1478B63FC7 /* Core */ = {
@@ -206,7 +218,7 @@
 		82B5C4BE82BA5FE8E190F6806A912D3C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BE494620F7D89D8764B867DC054E69A9 /* MiracastSDK */,
+				70F47275D341E8E74F54DB07AEAC8D25 /* MiracastSDK */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -233,26 +245,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BE494620F7D89D8764B867DC054E69A9 /* MiracastSDK */ = {
-			isa = PBXGroup;
-			children = (
-				FCDA80F84AABCAAD84C32CC9358C1A2E /* CLUPnPAVPositionInfo.h */,
-				1A160FC55D90570367DAD569DB034771 /* MCDeviceManager.h */,
-				AE1C181005C3A00280C105F26406780B /* MCFileManager.h */,
-				808B8D78553870E373A2678CEB8770E4 /* MCPlayerBanner.h */,
-				D91574CB9F0074A970CD0D6D92A0BFB8 /* MCPlayMediaViewController.h */,
-				79D72CA17A127637B47F0EA785BDAD95 /* MCRenderManager.h */,
-				FA0154589EA4729486DF06D6640C3FBB /* MCSuspendButton.h */,
-				19A274D93DBF227328799477852FE78F /* MCWifiManager.h */,
-				DB7D9988B51018575D3AA691E5F108DD /* Miracast.h */,
-				A0F707931D7D12A6A147279E9FA27FFF /* RTTURLProtocol.h */,
-				4DF61347BD9C84AED05C999282BEFD41 /* Frameworks */,
-				EA065C9A44CBCD9DB542DAE312EE039A /* Resources */,
-			);
-			name = MiracastSDK;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		C19B84ECBD9CA5CCD1E49FB28A2D48AE /* ProgressView */ = {
 			isa = PBXGroup;
 			children = (
@@ -262,10 +254,18 @@
 			name = ProgressView;
 			sourceTree = "<group>";
 		};
-		EA065C9A44CBCD9DB542DAE312EE039A /* Resources */ = {
+		ED43C90E3D79AA353EA96E74ADFA0BB2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				03D04164DB307B33DF573E678B6CA180 /* Miracast.xcassets */,
+				59D0D42C21BF5124198AFFF423D86FF7 /* libMiracastSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE96EEA654A02D9835CB13B9ADD7C64B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				41DE7D7BB01B7EBEC9F80D5E38EAC584 /* Miracast.xcassets */,
 			);
 			name = Resources;
 			sourceTree = "<group>";

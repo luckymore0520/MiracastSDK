@@ -1,0 +1,6 @@
+framework module MiracastSDK {
+  umbrella header "MiracastSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

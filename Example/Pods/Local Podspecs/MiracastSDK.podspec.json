@@ -2,6 +2,7 @@
   "name": "MiracastSDK",
   "version": "0.1.0",
   "summary": "MiracastSDK",
+  "description": "MiracastSDK",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -10,7 +11,6 @@
     "njuluckwang": "njuluckwang@gmail.com"
   },
   "homepage": "https://github.com/luckymore0520/MiracastSDK",
-  "description": "MiracastSDK",
   "requires_arc": true,
   "source": {
     "git": "https://github.com/luckymore0520/MiracastSDK.git",
@@ -21,12 +21,12 @@
   },
   "ios": {
     "source_files": [
-      "Source/Public/*.h"
+      "MiracastSDK/Public/*.h"
     ],
     "public_header_files": [
-      "Source/Public/*.h"
+      "MiracastSDK/Public/*.h"
     ],
-    "vendored_libraries": "Source/libMiracastSDK.a"
+    "vendored_libraries": "MiracastSDK/libMiracastSDK.a"
   },
   "libraries": [
     "xml2",
@@ -48,5 +48,5 @@
     "Accelerate",
     "QuartzCore"
   ],
-  "resources": "Source/Miracast.bundle/Miracast.xcassets"
+  "resources": "MiracastSDK/Resources/Miracast.xcassets"
 }
